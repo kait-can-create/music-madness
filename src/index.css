@@ -42,11 +42,6 @@ a:hover {
   background-color: darkseagreen;
 }
 
-.ninPrettyHateMachine {
-  height: 300px;
-  width: auto;
-}
-
 img {
   height: 300px;
   width: auto;
@@ -59,4 +54,10 @@ p {
   flex-wrap: wrap;
   flex-direction:row;
   padding-top: .25rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
